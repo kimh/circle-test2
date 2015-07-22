@@ -1,3 +1,4 @@
 test:
   override:
     - echo "this is branch1"
+    - echo "this is branch1"
