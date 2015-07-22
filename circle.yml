@@ -4,3 +4,5 @@ test:
     - git add deploy.txt
     - git commit -m "wip"
     - git push origin master
+    - git config --global user.email "you@example.com"
+    - git config --global user.name "Your Name"
