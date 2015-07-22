@@ -1,3 +1,4 @@
 test:
   override:
     - echo "branch2 doesn't show up here because we use git shallow fetch"
+    - git branch
