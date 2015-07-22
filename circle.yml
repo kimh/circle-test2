@@ -1,3 +1,6 @@
 test:
   override:
-    - echo "no test"
+    - touch deploy.txt
+    - git add deploy.txt
+    - git commit -m "wip"
+    - git push origin master
